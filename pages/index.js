@@ -72,21 +72,20 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="ml-[180px] bg-[#0C101B] mt-24 h-12 w-[1500px] rounded-t flex item-center ">
+            
+       <div className=" ml-[180px]">
+        <div className="bg-[#0C101B] mt-24 h-12 w-[1500px] rounded-t flex item-center ">
         <div className="text-white text-sm ml-8 mt-4"> Хамгийн өндөр сонсолттой дуунууд</div>
       </div>
-
-      <div className="ml-[180px] bg-[#0C101B]  h-8 w-[1500px]  flex justify-center grid grid-cols-6 gap-x-10 items-center">
+       <div className=" bg-[#0C101B]  h-8 w-[1500px]  flex justify-center grid grid-cols-6 gap-x-10 items-center">
         <button className="text-white flex justify-start ml-10 text-xs"> Бүгд</button>
         <button className="text-white flex justify-start text-xs"> Поп</button>
         <button className="text-white flex justify-start text-xs"> Рок,Алтернатив</button>
         <button className="text-white flex justify-start text-xs"> Хип хоп,реп</button>
         <button className="text-white flex justify-start text-xs"> Жазз</button>
         <button className="text-white flex justify-start text-xs"> Нийтийн</button>
-        
         </div>
-      
-       <div className=" ml-[180px]">
+
          <div className="bg-[#0C101B] h-[850px] w-[1500px] rounded  ">
          <div className="grid grid-y-cols-6 gap-y-8 gap-x-2 ml-10">
         <div className="bg-[url('https://cdns-images.dzcdn.net/images/cover/54a5fe2fc7496e0ada0d362c249f17a0/264x264.jpg')] mt-12 bg-cover h-10 w-10 rounded-xl cursor-pointer transition-all duration-500 hover:scale-110">
