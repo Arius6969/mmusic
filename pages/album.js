@@ -7,11 +7,20 @@ export default function Home() {
  return (
     <div className="bg-white pb-24 dark:bg-[#131722]">
         
-      <div className="flex justify-start ml-72"> 
+      <div className=" flex justify-start ml-72"> 
         <button className="text-black text-sm mt-20 font-bold dark:text-white">Бүгд/ </button>
         <button className="text-black text-sm mt-20 font-bold dark:text-white">Цомог/ </button>
-        <button className="text-black text-sm mt-20 font-bold dark:text-white">Сингл </button>
-        <div className="ml-[812px] mt-20 w-[450px] mr-56 rounded-xl h-10 bg-neutral-600 dark:bg-[#0C101B]"> </div>  
+        <button className="text-black text-sm mt-20 font-bold dark:text-white">Сингл </button>  
+        <div className="absolute max-w-md mx-auto flex align-end ml-[610px] mt-[30px] text-white font-bold rounded-xl p-6">
+      <label htmlFor="numberInput" className="bg-zinc-500">
+      </label>
+      <input
+        className=" absolute bg-[#131722] ml-[300px] mt-1 p-2 w-[360px] border rounded w-full focus:border-[#131722] focus:transparent rounded-xl" 
+        placeholder="Хайх..."
+      />
+    
+
+    </div>
       </div>
       <div className="mt-8 grid grid-cols-6 gap-y-28 gap-x-14 mr-56 ml-72">
         <div className="bg-[url('https://cdns-images.dzcdn.net/images/cover/54a5fe2fc7496e0ada0d362c249f17a0/264x264.jpg')] bg-cover h-44 w-44 rounded-xl cursor-pointer transition-all duration-500 hover:scale-110">

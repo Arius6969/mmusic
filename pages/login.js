@@ -10,19 +10,19 @@ export default function Home() {
 
     <div className=" h-screen">
         
-    <div className="h-full w-full bg-zinc-950 flex justify-center ">
-    <a class="absolute  mt-[60px] mr-[224px] bg-zinc-900  text-white font-semibold  py-2 px-[34px] border border-zinc-900  rounded-t-xl">
+    <div className="h-full w-full bg-[#131722] flex justify-center ">
+    <p class="absolute  mt-[60px] mr-[224px] bg-zinc-700  text-white font-semibold  py-2 px-[34px] border border-zinc-900  rounded-t-xl">
     Хэрэглэгчийн дугаар
-    </a>
+    </p>
   
     <Link href="/login1"> {}
-          <a className="absolute focus:outline-none focus:ring-1 focus:ring-white z-2 focus:bg-zinc-900 mt-[60px] ml-[-1px] bg-transparent text-white font-semibold py-2 px-[69px] border border-zinc-900 rounded-t-xl">
+          <p className="absolute focus:outline-none focus:ring-1 focus:ring-white z-2 focus:bg-zinc-900 mt-[60px] ml-[-1px] bg-transparent text-white font-semibold py-2 px-[69px] border border-zinc-900 rounded-t-xl">
             Цахим хаяг
-          </a>
+          </p>
         </Link>
 
 
-    <div className="mt-24 flex items-center justify-center bg-zinc-900 text-white absolute h-[450px] w-[450px] ">
+    <div className="mt-24 flex items-center justify-center bg-zinc-700 text-white absolute h-[450px] w-[450px] ">
     <div className=' mb-4 h-[330px] w-[350px]'>
         <div className=' h-[100px] w-full'>
             <div className='text-white/80 '>Хэрэглэгчийн дугаар</div>
