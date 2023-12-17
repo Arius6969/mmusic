@@ -8,7 +8,7 @@ export default function Home() {
 
     <div className=" h-screen">
     <div className="h-full w-72 bg-[#0C101B]">
-    <div className="h-80 w-80 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ90OQrtuEA_WTZ89QNPWNwe3hGcjhzeNYtLg&usqp=CAU')]"> </div> 
+    <div className="text-white absolute h-8 w-8 bg-[url('https://shorturl.at/dkyN3')]"></div> 
     </div>
     
     </div>
