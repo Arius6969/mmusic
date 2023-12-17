@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
  return (
     <div className="bg-white pb-24 dark:bg-[#131722]">
+
+      
         
       <div className="flex justify-start justify-between ml-72"> 
         <div className=" mb-4 text-black text-sm mt-20 font-bold dark:text-[#E5E7EB]"> Дуу </div>
