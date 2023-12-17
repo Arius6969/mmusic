@@ -5,11 +5,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
  return (
-    <div className="bg-[#131722] pb-24">
+    <div className="bg-white pb-24 dark:bg-[#131722]">
         
       <div className="flex justify-start justify-between ml-72"> 
-        <div className=" mb-4 text-white text-sm mt-20 font-bold"> Дуу </div>
-        <div className="mt-20 w-[450px] mr-56 rounded-xl h-10 bg-[#0C101B]"> </div>
+        <div className=" mb-4 text-black text-sm mt-20 font-bold dark:text-white"> Дуу </div>
+        <div className="ml-[812px] mt-20 w-[450px] mr-56 rounded-xl h-10 bg-white dark:bg-[#0C101B] "> </div>
       </div>
 
       <div className="mt-6 bg-[#0C101B] h-6 w-48 ml-[1500px] border border-[#243049]"> </div>
@@ -23,7 +23,7 @@ export default function Home() {
             <button className=" "> Heaven knows ft Maaraa </button>
             <button className=" "> Heaven knows ft Maaraa</button>
             <button className=" "> Pacrap</button>
-            <a className="text-white"> 03:48</a>
+            <a className="text-whi"> 03:48</a>
           </div>
         </div>
         <div className="bg-[#0C101B] mt-2 h-10 w-[1400px] rounded flex justify-center ">

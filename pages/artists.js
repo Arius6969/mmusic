@@ -9,7 +9,7 @@ export default function Home() {
         
       <div className="flex justify-start justify-between ml-72"> 
         <div className=" mb-4 text-black text-sm mt-20 font-bold dark:text-white"> Уран бүтээлч </div>
-        <div className="mt-20 w-[450px] mr-56 rounded-xl h-10 bg-white dark:bg-[#0C101B]"> </div>
+        <div className="mt-20 w-[450px] mr-56 rounded-xl h-10 bg-neutral-600 dark:bg-[#0C101B]"> </div>
       </div>
       <div className="mt-8 grid grid-cols-6 gap-y-14 gap-x-14 mr-56 ml-72">
         <div className="bg-neutral-600 dark:bg-[#131313] h-[250px] w-52 rounded-xl flex justify-center cursor-pointer transition-all duration-500 hover:scale-110">
