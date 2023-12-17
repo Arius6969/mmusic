@@ -30,7 +30,7 @@ export default function Home() {
       <label htmlFor="numberInput" className="bg-zinc-500">
       </label>
       <input
-        className=" absolute text-center font-bold bg-zinc-700 ml-[300px] mt-1 p-2 w-[380px] border rounded w-full focus:outline-none focus:ring-0 focus:border-zinc-900"
+        className=" absolute text-center font-bold bg-zinc-700 ml-[300px] mt-1 p-2 w-[360px] border rounded w-full focus:outline-none focus:ring-0 focus:border-zinc-900"
         placeholder="AAA-0000"
       />
     </div>
