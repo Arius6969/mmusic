@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
 
-    <div className=" bg-[#131722] h-full w-screen">
+    <div className=" bg-[#131722] h-full w-screen grid gap-y-24">
       <div className='bg-green-500 h-[450px] w-full bg-cover bg-center relative'>
     <img className='absolute w-full h-[500px] object-cover' src='https://www.mmusic.mn/assets/img/demo/b2.jpg'></img>
     <div className='text-white absolute ml-36 text-xl font-bold mt-[160px]'>Хамгийн Том</div>
@@ -28,11 +28,12 @@ export default function Home() {
     <img className='absolute  ml-[590px] mt-[400px] ' src='https://www.mmusic.mn/assets/img/app/mac.svg'></img>
     <img className='absolute  ml-[720px] mt-[400px] ' src='https://www.mmusic.mn/assets/img/app/windows.svg'></img>
     
+    
     </div>
 
-    <div className="absolute text-white mt-12 ml-40"> Шинээр нэмэгдсэн цомгууд </div>
+    <div className="absolute text-white mt-[500px] ml-44"> Шинээр нэмэгдсэн цомгууд </div>
 
-    <div className="mt-8 grid grid-cols-6 gap-y-28 gap-x-2 mr-56 ml-[180px] mt-28">
+    <div className="mt-8 grid grid-cols-6 gap-y-28 gap-x-2 mr-56 ml-[180px] ">
         <div className="bg-[url('https://cdns-images.dzcdn.net/images/cover/54a5fe2fc7496e0ada0d362c249f17a0/264x264.jpg')] bg-cover h-56 w-56 rounded-xl cursor-pointer transition-all duration-500 hover:scale-110">
             <button className="mt-56 ">
                 <div className="text-black font-bold text-sm flex items-start dark:text-[#E5E7EB]"> Toos to Zoos </div>
