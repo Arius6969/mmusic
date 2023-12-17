@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className="mt-6 bg-[#131722] h-[30px] w-56 ml-[1460px] border border-[#243049]  flex items-center "> 
-        <div className="text-black dark:text-[#E5E7EB] ml-2 text-sm "> Сүүлд</div>
+        <div className="text-white ml-2 text-sm "> Сүүлд</div>
       </div>
       
       <div className="mt-8 grid grid-cols-6  gap-y-28 gap-x-14 mr-56 ml-72">

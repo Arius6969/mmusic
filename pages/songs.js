@@ -24,12 +24,12 @@ export default function Home() {
       </div>
 
       <div className="ml-[270px] bg-[#0C101B] mt-6 h-8 w-[1418px] rounded flex justify-center grid grid-cols-6 gap-x-10 items-center">
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start ml-4 text-xs"> Бүгд</button>
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start text-xs"> Поп</button>
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start text-xs"> Рок,Алтернатив</button>
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start text-xs"> Хип хоп,реп</button>
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start text-xs"> Жазз</button>
-        <button className="text-black dark:text-[#E5E7EB] flex justify-start text-xs"> Нийтийн</button>
+        <button className="text-white flex justify-start ml-4 text-xs"> Бүгд</button>
+        <button className="text-white flex justify-start text-xs"> Поп</button>
+        <button className="text-white flex justify-start text-xs"> Рок,Алтернатив</button>
+        <button className="text-white flex justify-start text-xs"> Хип хоп,реп</button>
+        <button className="text-white flex justify-start text-xs"> Жазз</button>
+        <button className="text-white flex justify-start text-xs"> Нийтийн</button>
         </div>
 
       <div className="mt-2 mr-56 ml-72">
