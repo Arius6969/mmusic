@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <div className="mt-6 bg-[#131722] h-[30px] w-56 ml-[1460px] border border-[#243049]  flex items-center "> 
-        <div className="text-black dark:text-[#E5E7EB] ml-2 text-sm "> Сүүлд</div>
+        <div className="text-white ml-2 text-sm "> Сүүлд</div>
       </div>
 
       <div className="ml-[270px] bg-[#0C101B] mt-6 h-8 w-[1418px] rounded flex justify-center grid grid-cols-6 gap-x-10 items-center">
